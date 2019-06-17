@@ -1,4 +1,4 @@
-### A simple compiler for SPL
+# A simple compiler for SPL
 
 本项目实现了一个基于SPL(simple pascal language)语法的编译器，支持整型、浮点运算，类型声明，函数调用，全局、局部变量，引用传值，所有种类的statement（如assign_stmt, if_stmt等）等。
 编译器的编写使用c++，采用flex + bison + llvm的模式。
